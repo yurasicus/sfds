@@ -2,11 +2,17 @@
 
 ## Contents
 [1. Description](https://github.com/yurasicus/sfds/tree/main/Project%200#description)
+
 [2. Case we are solving here](https://github.com/yurasicus/sfds/tree/main/Project%200#case-we-are-solving-here)
-[3. Data used](____)
-[4. History](____)
-[5. Results](____)
-[6. Findings](____)
+
+[3. Data used](https://github.com/yurasicus/sfds/tree/main/Project%200#3-data-used)
+
+[4. History](https://github.com/yurasicus/sfds/tree/main/Project%200#4-history)
+
+[5. Results](https://github.com/yurasicus/sfds/tree/main/Project%200#5-results)
+
+[6. Findings](https://github.com/yurasicus/sfds/tree/main/Project%200#6-findings)
+
 
 ### Description
 Guess a number
