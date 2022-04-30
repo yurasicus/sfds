@@ -1,4 +1,4 @@
-# My fisrt data science project on Github
+# My fisrt data science repository on Github
 From the [Skillfactory Data Science course](https://skillfactory.ru/data-science)
 
 ## Projects
