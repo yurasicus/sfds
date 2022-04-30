@@ -1,8 +1,8 @@
 # Project 0. Guess a number
 
 ## Contents
-[1. Description](____)
-[2. Case we are solving here](____)
+[1. Description](https://github.com/yurasicus/sfds/tree/main/Project%200#description)
+[2. Case we are solving here](https://github.com/yurasicus/sfds/tree/main/Project%200#case-we-are-solving-here)
 [3. Data used](____)
 [4. History](____)
 [5. Results](____)
@@ -37,4 +37,4 @@ Average random tries count is 100.
 
 ### 6. Findings
 Created my first repository on GitHub using VSCode. Created token. Tested pull, push, commit comments.
-Learned how to use Markdown language to make simple and beauty notes and project description.
+Learned how to use Markdown language to make simple and nice notes and project description.
