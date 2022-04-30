@@ -15,7 +15,7 @@ Guess a number
 |file|description|
 |-|-|
 |game.py|computer proposes a number, user guesses|
-|game_v2.py, game.ipynb|computer proposes and guesses a number|
+|game_v2.py, game.ipynb|computer proposes a number, and test your guessing-function|
 
 #### **game.py**
 Computer randomly proposes a number from 1 to 100. You should guess that number by trying - entering your number until match. If you enter wrong number - computer says "less" or "greater", guiding you to correct number.
