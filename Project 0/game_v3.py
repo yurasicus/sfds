@@ -41,7 +41,7 @@ def smart_predict(number:int=1) -> int:
     
     while True:
         trial_number = (left_bound + right_bound) // 2
-        print(left_bound, trial_number, right_bound)
+        # print(left_bound, trial_number, right_bound)
         trial_count += 1
         if trial_number == number:
             return trial_count
