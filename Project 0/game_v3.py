@@ -16,7 +16,7 @@ def score_game(predict_func) -> float:
     
     for _ in range(total_runs):
         test_number = np.random.randint(1, 101)
-        print(f'trying {test_number} number, run {_}')
+        # print(f'trying {test_number} number, run {_}')
         total_trials += predict_func(test_number)  # total attempt count in run
     
     # average attempt count in 1000 runs:
