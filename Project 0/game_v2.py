@@ -1,13 +1,13 @@
 import numpy as np
 
 def random_predict(number:int=1) -> int:
-    """ Рандомно пытаемся угадать число
+    """ this function randomly guesses a number
 
     Args:
-        number (int, optional): Загаданное число. Defaults to 1.
+        number (int, optional): Given proposed number. Defaults to 1.
 
     Returns:
-        int: количество попыток за которое угадал
+        int: number of tries until win
     """
 
     count = 0
@@ -20,26 +20,26 @@ def random_predict(number:int=1) -> int:
 
 
 def score_game(predict_func) -> float:
-    """ За какое количество попыток в среднем тестируемая функция
-        угадывает число (1000 прогонов)
-
+    """ Makes 1000 runs of given input function.
+        Returns average try count made until win.
+        
     Args:
-        predict_func (_type_): тестируемая функция
+        predict_func (_type_): tested function
 
     Returns:
-        float: среднее количество попыток
+        float: average try count until win
     """
     
-    total_runs = 1000                   # количество прогонов
+    total_runs = 1000                   # number of runs
     total_trials = 0
     
     for _ in range(total_runs):
-        total_trials += predict_func()  # общее количество попыток
+        total_trials += predict_func()  # total try count in run
     
-    return total_trials / total_runs  # среднее количество попыток при 1000 прогонов
+    return total_trials / total_runs  # average try count in 1000 runs
 
 
-# print(f'Количество попыток: {random_predict()}')
+# print(f'Average try count to win: {random_predict()}')
 
 if __name__ == '__main__':
     print(score_game(random_predict))

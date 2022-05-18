@@ -5,11 +5,11 @@ count = 0
 
 while True:
     count += 1
-    imagine_number = int(input('Угадай число:'))
+    imagine_number = int(input('Guess a number:'))
     if number < imagine_number:
-        print('Число меньше!')
+        print('Should be less!')
     elif number > imagine_number:
-        print('Число больше!')
+        print('Should be greater!')
     else:
-        print(f'Вы угадали число за {count} попыток!')
+        print(f'You guess number in {count} try!')
         break  # end of the game
